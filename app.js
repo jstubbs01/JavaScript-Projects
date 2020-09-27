@@ -189,6 +189,9 @@ function matchWithRegEx(regEx, field, message){
   }
 }
 
+
+///
+
 /* show password button 
 
 togglePassword.addEventListener('click' , function(i) {
