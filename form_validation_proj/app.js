@@ -216,3 +216,11 @@ function darkMode(){
   var element = document.body;
   element.classList.toggle('dark-mode');
 }
+
+function darkModeText(){
+  if darkMode() === false {
+    document.getElementById("input-field col s6").style.color ="black";
+  } else {
+    return;
+  }
+}
