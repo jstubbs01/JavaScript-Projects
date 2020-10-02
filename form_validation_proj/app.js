@@ -190,7 +190,7 @@ function matchWithRegEx(regEx, field, message){
 }
 
 
-///
+
 
 /* show password button 
 
