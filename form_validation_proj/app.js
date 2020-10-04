@@ -6,6 +6,7 @@ const confirmPassword = document.getElementById('confirmPassword');
 const email = document.getElementById('email');
 const togglePassword =  document.querySelector('#togglePassword');
 const showPassword = document.querySelector('#showPassword');
+const colors = document.querySelectorAll('.colors');
 
 // Form
 const form = document.getElementById('myForm');
@@ -213,10 +214,50 @@ function toggler(e) {
 }
 
 function darkMode(){
+  
   var element = document.body;
   element.classList.toggle('dark-mode');
+  CheckColor();
+
+  //return(firstName.style.color);
+  //return(element.style.backgroundColor);
+}
+function CheckColor() {
+  var InputFields = document.getElementsByClassName("input-field col s6");
+  if (firstName.style.color == "white") {
+    firstName.style.color = "black";
+    lastName.style.color = "black";
+    password.style.color = "black";
+    confirmPassword.style.color = "black";
+    email.style.color = "black";
+  }
+  
+  else{
+    firstName.style.color = "white";
+    lastName.style.color = "white";
+    password.style.color = "white";
+    confirmPassword.style.color = "white";
+    email.style.color = "white";
+    }
 }
 
+/*
+function checkFilled() {
+	var inputVal = document.getElementById("firstName");
+    if (darkMode() == true) {
+        inputVal.style.color = "white";
+    }
+    else{
+        inputVal.style.backgroundColor = "";
+    }
+}
+ 
+checkFilled();
+
+
+
+
+/*
 function darkModeText(){
   if darkMode() === false {
     document.getElementById("input-field col s6").style.color ="black";
@@ -224,3 +265,17 @@ function darkModeText(){
     return;
   }
 }
+*/
+/*
+for (let color of colors) {
+  color.addEventListener('keyup', () => {
+    if (this.event.target.value == 1) {
+      this.event.target.style.backgroundColor = 'red';
+    }
+    
+    else {
+      this.event.target.style.backgroundColor = 'inherit';
+    }
+  })
+}
+*/

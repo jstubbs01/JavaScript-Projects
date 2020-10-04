@@ -36,16 +36,7 @@ body {
 .dark-mode {
     background-color: black;
     color: white;
+  
 }
 
-.input-field [type=text] {
-    color:orange;
-} 
 
-.input-field [type=password] {
-    color:orange;
-}
-
-.input-field [type=email] {
-    color:orange;
-}
