@@ -1,5 +1,3 @@
-# JavaScript-Projects
+# JavaScript Form Validation Project
 
-This is where I'll host some practice javascript projects
-
-Current project is a form validation project
+A simple input form using html, css, and javascript.
