@@ -1,3 +1,3 @@
 # JavaScript Form Validation Project
 
-A simple input form using html, css, and javascript.
+A simple frontend input form using html, css, and javascript.
